@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Random Image</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Случайная картинка с любым (почти) разрешением!</h1>
+    <label>
+        Ширина картинки (px):
+        <input class="input mrgn" type="number" placeholder="Введите число от 100 до 300">
+    </label>
+    <label>
+        Высота картинки (px):
+        <input class="input mrgn" type="number" placeholder="Введите число от 100 до 300">
+    </label>
+    <div class="warn mrgn">Одно из чисел вне диапазона от 100 до 300</div>
+    <button class="btn mrgn">Получить картинку</button>
+    <div class="random-image"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
